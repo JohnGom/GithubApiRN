@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "GestorGitHub",
+    "description": "Prueba de s4n de gestor de usuarios de github",
+    "slug": "gestorgithub",
+    "privacy": "public",
+    "sdkVersion": "27.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "primaryColor": "#25292e",
+    "androidStatusBarColor": "#25292e",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#25292e"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.s4n.gestorgithub"
+    },
+    "android": {
+      "package": "com.s4n.gestorgithub",
+      "versionCode": 1
+    }
+  }
+}
